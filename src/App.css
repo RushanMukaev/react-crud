@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.update {
+  height: 30px;
+}
+
+.container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+textarea {
+  height: 100px;
+  width: 70%;
+}
+
+.add {
+  background-color: #55e35e;
+}
+
+.noteForm {
+  display: flex;
+  gap: 10px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.note {
+  display: flex;
+  gap: 5px;
+  width: 200px;
+}
+
+.btn {
+  width: 23px;
+  height: 23px;
+}
+
+.text {
+  border: 1px solid #dbd7d7;
+  padding: 10px;
+}
